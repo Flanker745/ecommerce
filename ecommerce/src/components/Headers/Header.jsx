@@ -25,7 +25,7 @@ function Header() {
   }, []);
   const [nev, setnev] = useState(false);
   return (
-    <header className={`${scrolled ? "" : "fixed "} duration-300 w-full z-10 `}>
+    <header className={`${scrolled ? "" : "fixed "}  duration-300 w-full z-10 `}>
       <div className="bg-black py-4 text-[14px] sm:text-[16px] w-full text-white  flex flex-wrap">
         <div className="flex flex-wrap text-center justify-center m-auto gap-5 md:gap-9">
           <p>
